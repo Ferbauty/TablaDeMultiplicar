@@ -1,0 +1,20 @@
+//crear un programa que solicite un número entre 1 y 12 y muestre por pantalla la tabla de 
+//multiplicar del correspondiente al número digitado.
+import java.util.Scanner;
+public class Problema9 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int Num,Res;
+		System.out.println("Ingrese un numero del 1 al 12 para imprimir la tabla de multiplicar");
+		Num = sc.nextInt();
+
+		for (int i = 1; i <= 9; i++) {
+			Res = i * Num;
+			System.out.println(+i+" X " +Num+" = "+Res);
+		}
+		
+		}
+	}
